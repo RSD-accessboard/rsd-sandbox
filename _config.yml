@@ -75,6 +75,8 @@ primary_navigation:
     url: /document/
   - name: Document with sidenav
     url: /document-with-sidenav/
+  - name: ADA
+    url: /ADA-standards/
   - name: Document submenu
     children:
       - name: Navigation link
