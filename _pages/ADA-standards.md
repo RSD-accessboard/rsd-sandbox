@@ -4,5 +4,5 @@ layout: page
 sidenav: true
 ---
 
-# Section heading (h1)
+# ADA Standards
 
