@@ -3,6 +3,9 @@
 @import "uswds";
 
 // Add your SASS/CSS here
+.sticky {
+  position: sticky;
+}
 
 // default mode hide banner
 .usa-banner__content {
