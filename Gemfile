@@ -12,10 +12,6 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.8"
 
-#theme
-gem "jekyll-theme-hacker"
-
-
 # See https://github.com/envygeeks/jekyll-assets/issues/622
 gem "sprockets", "~> 3.7"
 
