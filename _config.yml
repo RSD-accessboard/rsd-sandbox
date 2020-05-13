@@ -81,10 +81,10 @@ primary_navigation:
     children:
       - name: Navigation link
         url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+      - name: testsub2
+        url: /sub/testsub/
       - name: test sub link
-        url: /subfold/tezsub/
+        url: /_subfold/tezsub/
 
 secondary_navigation:
   - name: Secondary link
