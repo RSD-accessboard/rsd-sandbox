@@ -83,8 +83,8 @@ primary_navigation:
         url: "#main-content"
       - name: Navigation link
         url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+      - name: test sub link
+        url: /subfold/tezsub/
 
 secondary_navigation:
   - name: Secondary link
