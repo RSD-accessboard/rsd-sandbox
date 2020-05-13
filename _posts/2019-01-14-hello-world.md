@@ -1,6 +1,7 @@
 ---
 title: A very long blog header that has a lot of detail but is still relevant
 layout: post
+categories: 18ftest tes2
 date: January 14, 2019
 author: Abraham Lincoln
 excerpt: This is an excerpt
