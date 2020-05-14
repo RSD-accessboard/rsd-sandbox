@@ -1,6 +1,7 @@
 ---
 title: Document with Sidenav
 layout: page-standards
+sidenav: true
 
 ---
 
