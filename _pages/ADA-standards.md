@@ -6,10 +6,7 @@ sidenav: true
 ---
 
 
-<!-- FROM STANDARDS ONLY FILE -->
-
-
-				<div id="mainContent" class="contentPage standardsFull">
+<div id="mainContent" class="contentPage standardsFull">
 					<div id="adaCh1">
 						<h1 id="a1">Chapter 1: Application and Administration</h1>
 							<h2 id="ada-101">101 Purpose</h2>
