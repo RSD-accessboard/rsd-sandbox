@@ -1,23 +1,27 @@
 {% comment %} 
-The sidenav is not loaded by default on the main pages. To include this navigation add "sidenav-ada: true" in the front-matter of your page-standards.html
+The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
+_layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
 {% endcomment %}
 
-<aside class="usa-layout-docs-sidenav sticky padding-bottom-4">
-  <nav class="usa-accordion">
+<aside class="usa-layout-docs-sidenav padding-bottom-4">
+  <nav>
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
-		<button class="usa-accordion__button"
+        <a href="">ADA</a>
+      </li>
+      <li class="usa-sidenav__item">
+	  <button class="usa-accordion__button"
           aria-expanded="true"
           aria-controls="a1">
-          <a href="" class="usa-current">Ch 1</a>
+          <a href="" class="">Ch 1</a>
         </button>
         
         <ul id="a1" class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item ">
-            <a href="#102-dimensions-for-adults-and-children">102</a>
+          <li class="usa-sidenav__item">
+            <a href="#102-dimensions-for-adults-and-children">ADA 102</a>
           </li>
           <li class="usa-sidenav__item">
-            <a href="" class="usa-current">103</a>
+            <a href="" class="">103</a>
             <ul class="usa-sidenav__sublist">
               <li class="usa-sidenav__item">
                 <a href="">103.1</a>
