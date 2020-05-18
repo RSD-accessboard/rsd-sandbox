@@ -4,7 +4,11 @@
 
 // Add your SASS/CSS here
 .sticky {
+  background-color: yellow;
+  position: -webkit-sticky; /* Safari */
   position: sticky;
+  top: 0;
+  
 }
 
 // default mode hide banner
