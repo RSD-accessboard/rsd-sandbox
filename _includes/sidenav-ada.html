@@ -4,10 +4,13 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 {% endcomment %}
 
 <aside class="usa-layout-docs-sidenav padding-bottom-4">
-  <nav>
+  <nav class="usa-accordion">
     <ul class="usa-sidenav">
       <li class="usa-sidenav__item">
-        <a href="">ADA</a>
+        <a href="">About the ADA Standards</a>
+      </li>
+	  <li class="usa-sidenav__item">
+        <a href="">DOJ ADA Regulations</a>
       </li>
       <li class="usa-sidenav__item">
 	  <button class="usa-accordion__button"
@@ -17,12 +20,14 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
         </button>
         
         <ul id="a1" class="usa-sidenav__sublist">
+			<li class="usa-sidenav__item">
+            <a href="#ada-101">101</a>
+          </li>
           <li class="usa-sidenav__item">
             <a href="#102-dimensions-for-adults-and-children">ADA 102</a>
           </li>
           <li class="usa-sidenav__item">
-            <a href="" class="">103</a>
-            <ul class="usa-sidenav__sublist">
+            <a href="#ada-103" class="">103</a>
               <li class="usa-sidenav__item">
                 <a href="">103.1</a>
               </li>
@@ -38,7 +43,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
             </ul>
           </li>
           <li class="usa-sidenav__item">
-            <a href="">Child link</a>
+            <a href="#ada-104">104</a>
           </li>
           <li class="usa-sidenav__item">
             <a href="">Child link</a>
