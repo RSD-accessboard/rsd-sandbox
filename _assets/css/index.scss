@@ -1,5 +1,7 @@
 // Import the US Web Design System SASS.
 
+$theme-hero-image: asset_url("wheelchair-camping.jpg");
+
 @import "uswds";
 
 // Add your SASS/CSS here
@@ -12,9 +14,6 @@
   top: 0;
   
 }
-
-$theme-image-path: "../assets/images";
-$theme-hero-image: "#{$theme-image-path}/wheelchair-camping.jpg";
 
 .usa-hero{
   color:orange;
