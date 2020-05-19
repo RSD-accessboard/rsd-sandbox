@@ -13,8 +13,10 @@
   
 }
 
-$theme-hero-image: "../assets/images/wheelchair-camping.jpg";
-$theme-color-base-family: "orange";
+.usa-hero{
+  background-image:url("../assets/images/wheelchair-camping.jpg");
+  color:orannge;
+}
 
 // default mode hide banner
 .usa-banner__content {
