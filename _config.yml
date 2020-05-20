@@ -67,8 +67,6 @@ dap:
 
 # Site Navigation
 primary_navigation:
-  - name: Home
-    url: /
   - name: About Us
     children:
       - name: Board Members
@@ -83,7 +81,7 @@ primary_navigation:
         url: /sub/testsub/
       - name: Access Board Policies
         url: /_subfold/tezsub/
-  - name: Guideline and Standards 
+  - name: Accessibility Standards 
     children:
       - name: ADA
         url: /ADA-standards/
@@ -91,12 +89,12 @@ primary_navigation:
         url: /508-standards/
       - name: ABA
         url: /ABA-standards/
-  - name: Accessibility Trainings
+  - name: Trainings
     url: /document-with-sidenav/
   - name: Research
     url: /document-with-sidenav/
   - name: File an ABA Compliant
-    url: /ABA-enforcement/
+    url: /ABA/enforcement/
   - name: News
     url: /news/
   - name: Contact Us
