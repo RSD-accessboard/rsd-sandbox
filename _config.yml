@@ -77,23 +77,25 @@ primary_navigation:
         url: /_subfold/tezsub/
       - name: Board History
         url: "#main-content"
-      - name: Laws and Regulations
-        url: /sub/testsub/
       - name: Access Board Policies
         url: /_subfold/tezsub/
-  - name: Accessibility Standards 
+  - name: Laws and Regulations
     children:
-      - name: ADA
+      - name: Overview
+        url: /overview/
+      - name: Americans with Disabilities Act
         url: /ADA-standards/
       - name: Section 508
         url: /508-standards/
-      - name: ABA
+      - name: Architectural Barriers Act
         url: /ABA-standards/
-  - name: Trainings
+      - name: Public Rights-of-Way
+        url: /ABA-standards/
+  - name: Accessibility Trainings
     url: /document-with-sidenav/
   - name: Research
     url: /document-with-sidenav/
-  - name: File an ABA Compliant
+  - name: File a Complaint
     url: /ABA/enforcement/
   - name: News
     url: /news/
