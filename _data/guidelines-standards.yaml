@@ -2,18 +2,19 @@
 # In this example, we create a simple array of options and then in the _pages/collections.md file we 
 # Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it 
 # This is simple, hopefully provides you with a good enough example to make changes as needed
-- name:  "../ada/2010-standards" Americans with Disabilities Act (ADA)
+- name:  "../ada/2010-standards Americans with Disabilities Act (ADA) "
   url:   ../ada/2010-standards
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
 
-- name: "/ada/2010-standards" Architectural Barriers Act  (ABA)
+- name: "/ada/2010-standards Architectural Barriers Act  (ABA) "
   url: /ada/2010-standards
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
-
-- name: "{{site.url}}/2010-standards"
-  url: {{site.url}}/2010-standards
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
 
 - name:  "/ada/2010-standards/"
   url: /ada/2010-standards/
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
+
+- name:  "/ada/2010-standards/"
+  url: /{{ site.url }}/ada/2010-standards/
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus. 
+

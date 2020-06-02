@@ -130,6 +130,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  guidelines-standards:
+    output: true
+    permalink: /:path/
 
 permalink: pretty
 

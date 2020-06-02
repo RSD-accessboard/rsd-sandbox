@@ -1,7 +1,8 @@
 ---
 title: 2010 ADA Standards
-layout:  page
+layout:  data
+permalink: /guidelines-standards
+datafile:  guidelines-standards
 ---
-#ADA
 
-This is where my ADA-Standards will go!
+ The US Access Board  has issued guidelines and standards on the following:
