@@ -1,7 +1,7 @@
 ---
 title:  Guidelines and Standards
 layout: data
-permalink: /guidelines-standards
+permalink: /guidelines-standards/
 datafile:  guidelines-standards
 ---
 
