@@ -79,12 +79,12 @@ primary_navigation:
         url: "#main-content"
       - name: Access Board Policies
         url: /_subfold/tezsub/
-  - name: Laws and Regulations
+  - name: Guidelines and Standards
     children:
       - name: Overview
-        url: /overview/
+        url: /guidelines-standards/
       - name: Americans with Disabilities Act
-        url: /ADA-standards/
+        url: /ADA/
       - name: Section 508
         url: /508-standards/
       - name: Architectural Barriers Act
